@@ -52,4 +52,4 @@
 [LinkedIn](https://www.linkedin.com/in/ratchanon-noknoy/) | [GitHub](https://github.com/ratchanon-noknoy2318)
 
 ---
-*Under MIT License | Copyright (c) 2024 - 2026 Ratchanon Noknoy*
+*Under MIT License | Copyright (c) 2024 Ratchanon Noknoy*

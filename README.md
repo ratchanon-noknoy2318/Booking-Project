@@ -1,4 +1,4 @@
-# Booking System with LINE Notify
+# Booking System with LINE Notify (Internship)
 **Automated Reservation Platform with Real-time Notifications**
 
 [Portfolio](https://ratchanon-portfolio.vercel.app/)

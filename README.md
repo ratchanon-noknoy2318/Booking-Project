@@ -1,57 +1,71 @@
 # Booking System with LINE Notify (Internship)
-**Automated Reservation Platform with Real-time Notifications**
 
-[Portfolio](https://ratchanon-portfolio.vercel.app/)
+**Automated Reservation Platform**  
 
 ---
 
-### Project Overview
-| Category | Detail |
+## System Summary
+| Item | Detail |
 | :--- | :--- |
-| **Project Type** | Appointment & Resource Management |
-| **Language** | PHP / MySQL |
-| **Special Feature** | **LINE Notify Integration** |
-| **Focus** | Automation & User Experience |
+| Project | Booking System with LINE Notify |
+| Type | Internship Project |
+| Backend | PHP |
+| Database | MySQL |
+| Integration | LINE Notify API |
+| Live System (Login) | https://kosamphi.moph.go.th/booking/login.php |
+
+> Note: The live system is restricted to authorized internal users.
 
 ---
 
-### LINE Notify Workflow
-This project integrates **LINE Notify API** to bridge the gap between the web system and mobile users:
-* **For Users:** Receive instant confirmation when a booking is successfully submitted.
-* **For Admins:** Get real-time alerts on LINE when a new request requires approval.
-* **Status Updates:** Automated notifications when a booking is approved or cancelled.
+## Architecture Overview
+| Layer | Description |
+| :--- | :--- |
+| Presentation | User and Admin web pages |
+| Business Logic | Booking validation and availability checks |
+| Integration | LINE Notify API handling |
+| Data Layer | MySQL data persistence |
 
 ---
 
-### Core Features
-* **Smart Booking:** Prevent double-booking with real-time availability checks.
-* **Member System:** Secure Login/Register for tracking personal booking history.
-* **Admin Command Center:** Manage, verify, and respond to all requests in one place.
-* **Automated Alerts:** No more checking the dashboard manually; let LINE Notify do the work.
+## Directory Structure
+| Path | Responsibility |
+| :--- | :--- |
+| `/core` | Core booking logic and notification handling |
+| `/config` | Database and LINE Notify configuration |
+| `/modules` | Booking, user, and admin modules |
+| `/assets` | Static resources (CSS / JavaScript) |
+| `/uploads` | Optional file attachments |
 
 ---
 
-### Technical Infrastructure
-| Component | Technology | Description |
-| :--- | :--- | :--- |
-| **Backend** | PHP | Processing logic and API requests |
-| **Integration** | LINE Notify API | HTTP POST requests to LINE Notify service |
-| **Database** | MySQL | Secure storage for appointments and user data |
-| **Frontend** | Bootstrap / JS | Clean, mobile-responsive booking interface |
+## Booking & Notification Flow
+| Step | Process |
+| :--- | :--- |
+| 1 | User submits booking request |
+| 2 | System validates availability |
+| 3 | Data stored in MySQL |
+| 4 | LINE Notify sends alert to admin |
+| 5 | Admin approves or rejects |
+| 6 | System notifies user via LINE |
 
 ---
 
-### Installation & Setup
-1. **Clone Repository:** `git clone https://github.com/ratchanon-noknoy2318/Booking-Project.git`
-2. **Database:** Import `.sql` file to your MySQL server.
-3. **LINE Token:** Obtain your Access Token from [LINE Notify Notify](https://notify-bot.line.me/) and add it to your configuration file.
-4. **Deploy:** Run via XAMPP or any PHP environment.
+## Design Considerations
+| Focus | Approach |
+| :--- | :--- |
+| Maintainability | Modular system structure |
+| Reliability | Server-side validation |
+| User Experience | Real-time notifications |
+| Simplicity | Lightweight backend implementation |
 
 ---
 
-### Contact & Support
-**Ratchanon Noknoy** (Software Engineer)  
-[LinkedIn](https://www.linkedin.com/in/ratchanon-noknoy/) | [GitHub](https://github.com/ratchanon-noknoy2318)
+## Developer
+| Name | Contact |
+| :--- | :--- |
+| **Ratchanon Noknoy** | https://www.linkedin.com/in/ratchanon-noknoy/ |
 
 ---
-*Under MIT License | Copyright (c) 2024 Ratchanon Noknoy*
+
+MIT License © 2024 Ratchanon Noknoy
